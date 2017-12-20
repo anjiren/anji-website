@@ -1,0 +1,19 @@
+// _base.scss
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+@import 'vars';
+@import 'mixins';
+
+body {
+  font: 100% $font-stack;
+  color: $color-primary;
+  background-color: $color-accent;
+}
+
+a {
+  @include transition(color .7s);
+  color: fade-out($color-link, .3);
+
+  &:hover {
+    color: $color-link;
+  }
+}

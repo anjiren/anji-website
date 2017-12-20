@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 100% "Share Tech Mono", sans-serif;
+  color: #333;
+  background-color: #ffcf2b; }
+
+a {
+  -moz-transition: color 0.7s;
+  -o-transition: color 0.7s;
+  -webkit-transition: color 0.7s;
+  transition: color 0.7s;
+  color: rgba(255, 255, 255, 0.7); }
+  a:hover {
+    color: #fff; }
+
+.App {
+  text-align: left; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
+
+.App-header {
+  height: 120px;
+  padding: 20px; }
+
+.App-title {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .3em; }
+
+.App-intro {
+  padding: 20px;
+  font-size: 2em; }
+
+.Info-container {
+  padding: 20px;
+  padding-top: 100px; }
+
+.Info-item {
+  height: 50px; }
+  .Info-item a {
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    color: #333;
+    text-decoration: none; }
+    .Info-item a:hover {
+      color: #fff; }
+  .Info-item h5 {
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: .3em; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+/*# sourceMappingURL=App.css.map */
