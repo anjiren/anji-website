@@ -53,6 +53,15 @@
   }
 }
 
+.Scroll-hint {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 20px;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

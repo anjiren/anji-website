@@ -23,14 +23,17 @@ class App extends Component {
         </p>
         <div className="Info-container">
           <div className="Info-item">
-            <h5>Resume</h5>
+            <a href="/resume.pdf"><h5>Resume</h5></a>
           </div>
           <div className="Info-item">
             <a href="https://github.com/anjiren"><h5>Github</h5></a>
           </div>
           <div className="Info-item">
-            <a href="https://www.instagram.com/anjiren_/"><h5>Instagram</h5></a>
+            <a href="https://www.instagram.com/anjimade/"><h5>Instagram</h5></a>
           </div>
+        </div>
+        <div className="Scroll-hint">
+          There's more
         </div>
       </div>
     );
