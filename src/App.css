@@ -4,61 +4,75 @@ body,
 ul,
 ol {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 body {
   font: 100% "Share Tech Mono", sans-serif;
   color: #333;
-  background-color: #ffcf2b; }
+  background-color: #ffcf2b;
+}
 
 a {
   -moz-transition: color 0.7s;
   -o-transition: color 0.7s;
   -webkit-transition: color 0.7s;
   transition: color 0.7s;
-  color: rgba(255, 255, 255, 0.7); }
-  a:hover {
-    color: #fff; }
+  color: rgba(255, 255, 255, 0.7);
+}
+a:hover {
+  color: #fff;
+}
 
 .App {
-  text-align: left; }
+  text-align: left;
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px; }
+  height: 80px;
+}
 
 .App-header {
   height: 120px;
-  padding: 20px; }
+  padding: 20px;
+}
 
 .App-title {
   font-size: 1em;
   text-transform: uppercase;
-  letter-spacing: .3em; }
+  letter-spacing: 0.3em;
+}
 
 .App-intro {
   padding: 20px;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .Info-container {
   padding: 20px;
-  padding-top: 100px; }
+  padding-top: 100px;
+}
 
 .Info-item {
-  height: 50px; }
-  .Info-item a {
-    -moz-transition: color 0.2s;
-    -o-transition: color 0.2s;
-    -webkit-transition: color 0.2s;
-    transition: color 0.2s;
-    color: #333;
-    text-decoration: none; }
-    .Info-item a:hover {
-      color: #fff; }
-  .Info-item h5 {
-    font-size: 1em;
-    text-transform: uppercase;
-    letter-spacing: .3em; }
+  height: 50px;
+}
+.Info-item a {
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  color: #333;
+  text-decoration: none;
+}
+.Info-item a:hover {
+  color: #fff;
+}
+.Info-item h5 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
 
 .Scroll-hint {
   position: fixed;
@@ -66,12 +80,21 @@ a {
   bottom: 0;
   margin: 20px;
   text-transform: uppercase;
-  letter-spacing: .3em; }
+  letter-spacing: 0.3em;
+  opacity: 1;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -o-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+}
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg); }
+    transform: rotate(0deg);
+  }
   to {
-    transform: rotate(360deg); } }
+    transform: rotate(360deg);
+  }
+}
 
 /*# sourceMappingURL=App.css.map */

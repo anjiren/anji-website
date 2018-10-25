@@ -2,6 +2,24 @@ import React, { Component } from 'react';
 import './App.css';
 
 class App extends Component {
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.hideScrollHint);
+  }
+
+  componentWillUnmount(){
+     window.removeEventListener('scroll', this.hideScrollHint);
+  }
+
+  hideScrollHint() {
+    const BUFFER_PX = 100;
+    if (window.innerHeight + window.scrollY < document.body.clientHeight - BUFFER_PX) {
+      document.getElementsByClassName('Scroll-hint')[0].style.opacity='1';
+    } else {
+      document.getElementsByClassName('Scroll-hint')[0].style.opacity='0';
+    }
+  }
+
   render() {
     return (
       <div className="App">
@@ -29,7 +47,7 @@ class App extends Component {
             <a href="https://github.com/anjiren"><h5>Github</h5></a>
           </div>
           <div className="Info-item">
-            <a href="https://www.instagram.com/anjimade/"><h5>Instagram</h5></a>
+            <a href="https://www.instagram.com/softerpaus/"><h5>Instagram</h5></a>
           </div>
         </div>
         <div className="Scroll-hint">

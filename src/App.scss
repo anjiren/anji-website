@@ -60,6 +60,11 @@
   margin: 20px;
   text-transform: uppercase;
   letter-spacing: .3em;
+  opacity: 1;
+  -moz-transition: opacity .25s ease-in-out;
+  -o-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  transition: opacity .25s ease-in-out;
 }
 
 @keyframes App-logo-spin {
