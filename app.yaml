@@ -7,3 +7,6 @@ handlers:
   upload: build/index.html
 - url: /
   static_dir: build
+skip_files:
+- src/*
+- node_modules/*
