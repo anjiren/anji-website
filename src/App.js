@@ -41,7 +41,7 @@ class App extends Component {
         </p>
         <div className="Info-container">
           <div className="Info-item">
-            <a href="https://paper.dropbox.com/doc/Anji-Ren-Resume-9seT1619QWDcV44bvtlLS?_tk=share_copylink"><h5>Resume</h5></a>
+            <a href="https://drive.google.com/file/d/1vRcqbm2um5LCVY7tZPO05BhontNYHzQE/view?usp=sharing"><h5>Resume</h5></a>
           </div>
           <div className="Info-item">
             <a href="https://github.com/anjiren"><h5>Github</h5></a>
