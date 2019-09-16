@@ -27,11 +27,11 @@ class App extends Component {
           <h1 className="App-title">Anji Ren</h1>
         </header>
         <p className="App-intro">
-          I am a UX engineer at Google building <a href="https://hire.google.com/">Hire</a>
+          I am a Senior UX engineer at Google building <a href="https://hire.google.com/">Hire</a> and a HCI Master's student at Stanford University
         </p>
         <p className="App-intro">
           Previously, I worked at
-          a <a href="https://techcrunch.com/2015/11/19/google-buys-bebop-and-names-diane-greene-to-lead-enterprise-cloud-effort/">startup</a> and
+          a <a href="https://techcrunch.com/2015/11/19/google-buys-bebop-and-names-diane-greene-to-lead-enterprise-cloud-effort/">startup</a>, Amazon, and
           graduated from MIT in 2015 with a Bachelors of Science
           in Electrical Engineering and Computer Science
         </p>
@@ -47,7 +47,7 @@ class App extends Component {
             <a href="https://github.com/anjiren"><h5>Github</h5></a>
           </div>
           <div className="Info-item">
-            <a href="https://www.instagram.com/softerpaus/"><h5>Instagram</h5></a>
+            <a href="https://www.instagram.com/dogbirdstudio/"><h5>Instagram</h5></a>
           </div>
         </div>
         <div className="Scroll-hint">
